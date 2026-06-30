@@ -2,10 +2,10 @@ import { useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Icon } from '../components/Layout';
 import { useAuth } from '../context/AuthContext';
+import { images } from '../data/assets';
 import { vaultDocuments, hospitals, doctors } from '../data/mockData';
 
-const CONCIERGE_AVATAR =
-  'https://lh3.googleusercontent.com/aida-public/AB6AXuBaB7K1eQnYOMttZSaSoDGGiEs9_c7Dy-ddwsMlF-RWpuya8CucKy3TtqPIRfOWD7W5Dfl3kjk0XUOmjwdYC9ISxrP728HQXD6Uo6SelGpL5LEVwYrMXnHSFzhwvHMJJfcemRirh0aiWsyqWOivo5XbdXekYc7Lx1bwXSetNwlPtGJBidSYiQUAd-eAVBfZhgjgAqpnG8oMcQ272lxmPl3FgxILNTkG2PXSRizSVwIGn_3KZEQxLUvMEl9bYoVmKIw-KanX-r3SCIc';
+const CONCIERGE_AVATAR = images.conciergeAvatar;
 
 const TRANSLATE_OPTIONS = [
   'Translate to English (US)',
