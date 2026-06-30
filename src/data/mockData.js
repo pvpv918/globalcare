@@ -4,7 +4,7 @@ export const hospitals = [
     name: 'Bangkok International Hospital',
     country: 'Thailand',
     city: 'Bangkok',
-    image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&q=80',
+    image: '/images/hospital-1.jpg',
     rating: 4.8,
     reviewCount: 342,
     jciCertified: true,
@@ -23,7 +23,7 @@ export const hospitals = [
     name: 'Bumrungrad International',
     country: 'Thailand',
     city: 'Bangkok',
-    image: 'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=1200&q=80',
+    image: '/images/hospital-2.jpg',
     rating: 4.9,
     reviewCount: 512,
     jciCertified: true,
@@ -42,7 +42,7 @@ export const hospitals = [
     name: 'Hospital Angeles Tijuana',
     country: 'Mexico',
     city: 'Tijuana',
-    image: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=1200&q=80',
+    image: '/images/hospital-3.jpg',
     rating: 4.6,
     reviewCount: 198,
     jciCertified: true,
@@ -61,7 +61,7 @@ export const hospitals = [
     name: 'Apollo Hospitals Chennai',
     country: 'India',
     city: 'Chennai',
-    image: 'https://images.unsplash.com/photo-1631217868264-e5bffd4eb3a6?w=1200&q=80',
+    image: '/images/hospital-1.jpg',
     rating: 4.7,
     reviewCount: 276,
     jciCertified: true,
@@ -80,7 +80,7 @@ export const hospitals = [
     name: 'Memorial Hospital Ankara',
     country: 'Turkey',
     city: 'Ankara',
-    image: 'https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=1200&q=80',
+    image: '/images/facility.jpg',
     rating: 4.5,
     reviewCount: 164,
     jciCertified: true,
@@ -99,7 +99,7 @@ export const hospitals = [
     name: 'Quirónsalud Barcelona',
     country: 'Spain',
     city: 'Barcelona',
-    image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=1200&q=80',
+    image: '/images/hero-lobby.jpg',
     rating: 4.8,
     reviewCount: 221,
     jciCertified: true,
@@ -119,27 +119,27 @@ export const destinations = [
   {
     country: 'Thailand',
     savings: 70,
-    image: 'https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?w=800&q=80',
+    image: '/images/thailand.jpg',
   },
   {
     country: 'Mexico',
     savings: 65,
-    image: 'https://images.unsplash.com/photo-1518638150340-f706e86654de?w=800&q=80',
+    image: '/images/mexico.jpg',
   },
   {
     country: 'India',
     savings: 80,
-    image: 'https://images.unsplash.com/photo-1524492412937-280b57d0ca83?w=800&q=80',
+    image: '/images/india.jpg',
   },
   {
     country: 'Turkey',
     savings: 68,
-    image: 'https://images.unsplash.com/photo-1527838837500-da5a90ad2e41?w=800&q=80',
+    image: '/images/facility.jpg',
   },
   {
     country: 'Spain',
     savings: 55,
-    image: 'https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800&q=80',
+    image: '/images/hero-lobby.jpg',
   },
 ];
 
@@ -287,9 +287,9 @@ export const hospitalProcedures = {
 };
 
 export const mockHotels = [
-  { id: 'h1', name: 'Hospital Guest Suites', distance: '0.2 mi', pricePerNight: 85, image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400&q=80' },
-  { id: 'h2', name: 'Medical Recovery Inn', distance: '0.5 mi', pricePerNight: 65, image: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400&q=80' },
-  { id: 'h3', name: 'Wellness Hotel & Spa', distance: '1.2 mi', pricePerNight: 120, image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400&q=80' },
+  { id: 'h1', name: 'Hospital Guest Suites', distance: '0.2 mi', pricePerNight: 85, image: '/images/hospital-2.jpg' },
+  { id: 'h2', name: 'Medical Recovery Inn', distance: '0.5 mi', pricePerNight: 65, image: '/images/hospital-3.jpg' },
+  { id: 'h3', name: 'Wellness Hotel & Spa', distance: '1.2 mi', pricePerNight: 120, image: '/images/facility.jpg' },
 ];
 
 export const vaultDocuments = [

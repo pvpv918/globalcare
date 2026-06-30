@@ -1,27 +1,25 @@
-/** Stable image URLs (Unsplash) — Google aida links expire / block hotlinking */
-const u = (id, w = 1200) => `https://images.unsplash.com/${id}?w=${w}&q=80&auto=format&fit=crop`;
-
+/** Local images in /public/images — served from same origin (reliable on Vercel) */
 export const images = {
-  heroLobby: u('photo-1580281657527-90ad4693c0e9'),
-  heroReception: u('photo-1586773860418-d37222d8fce3'),
-  heroFacility: u('photo-1579684385127-1ef15d508118'),
+  heroLobby: '/images/hero-lobby.jpg',
+  heroReception: '/images/hospital-2.jpg',
+  heroFacility: '/images/facility.jpg',
   destinations: {
-    thailand: u('photo-1552465011-8c228cd4a3c2'),
-    mexico: u('photo-1518639192441-8f180000cef4'),
-    india: u('photo-1524492412937-336ceb8f972d'),
+    thailand: '/images/thailand.jpg',
+    mexico: '/images/mexico.jpg',
+    india: '/images/india.jpg',
   },
   featuredHospitals: {
-    bumrungrad: u('photo-1586773860418-d37222d8fce3'),
-    galenia: u('photo-1538108149393-fbbd81895907'),
-    fortis: u('photo-1631217868264-e5bffd4eb3a6'),
+    bumrungrad: '/images/hospital-2.jpg',
+    galenia: '/images/hospital-3.jpg',
+    fortis: '/images/hospital-1.jpg',
   },
   search: {
-    bumrungrad: u('photo-1519494026892-80bbd2d6fd0d'),
-    medicaSur: u('photo-1586773860418-d37222d8fce3'),
-    apollo: u('photo-1631217868264-e5bffd4eb3a6'),
+    bumrungrad: '/images/hospital-1.jpg',
+    medicaSur: '/images/hospital-3.jpg',
+    apollo: '/images/hospital-2.jpg',
   },
-  testimonialAvatar: u('photo-1560250097-0b93528c311a', 400),
-  conciergeAvatar: u('photo-1573496359142-b8d87734a5a2', 400),
+  testimonialAvatar: '/images/avatar.jpg',
+  conciergeAvatar: '/images/concierge.jpg',
 };
 
 export const featuredHospitalsHome = [
